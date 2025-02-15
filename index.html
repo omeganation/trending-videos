@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="your-logo.png" alt="Logo" id="logo">
+        </div>
+        <h1>Trending Videos</h1>
+
+        <!-- Menu Button -->
+        <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+
+        <!-- Menu Links -->
+        <div class="menu" id="menu">
+            <button onclick="loadInstagramVideos()">Instagram Videos</button>
+            <button onclick="loadTikTokVideos()">TikTok Videos</button>
+            <button onclick="loadYouTubeVideos()">YouTube Videos</button>
+            <button onclick="loadFacebookVideos()">Facebook Videos</button>
+            <button onclick="loadXVideos()">X Videos</button>
+        </div>
+    </header>
+
+    <!-- Video Container Section -->
+    <div class="video-container" id="video-container"></div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Trending Videos | All rights reserved.</p>
+        <div class="social-media-links">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">X (Twitter)</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
